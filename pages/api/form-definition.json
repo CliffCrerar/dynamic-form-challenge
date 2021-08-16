@@ -1,0 +1,43 @@
+{
+    "form":{
+        "aciton":"/api/hello",
+        "method":"get",
+        "title":"Dynamic Form",
+        "subTitle":"This demo of dynamic forming",
+        "controls": [
+            {
+                "formControlType": "select",
+                "label": "favorite color",
+                "name": "color",
+                "options": [
+                    {
+                        "value": 0,
+                        "label": "blue"
+                    },
+                    {
+                        "value": 1,
+                        "label": "red"
+                    },
+                    {
+                        "value": 2,
+                        "label": "green"
+                    },
+                    {
+                        "value": 3,
+                        "label": "burgendy"
+                    }
+                ]
+            },
+            {
+                "formControlType": "textarea",
+                "placeholder": "Something I want to share with you",
+                "name": "share"
+            },
+            {
+                "formControlType": "textarea",
+                "placeholder": "Something you want to know about me",
+                "name": "receiving"
+            }
+        ]
+    }
+}
